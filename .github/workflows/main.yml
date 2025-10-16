@@ -2,9 +2,7 @@ name: A workflow for my My Demo Website
 on:
   workflow_dispatch:
   push:
-    paths:
-    - '**'     
-    - '!.github/**'
+    paths: ['**', '!.github/**']
  
 jobs: 
  build-job: 
